@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-      - argo.aws-esk.com
-    secretName: argo-aws-esk-com-tls
+      - argo.kimmari.click
+    secretName: argo-kimmari-click
   rules:
-  - host: argo.aws-esk.com
+  - host: argo.kimmari.click
     http:
       paths:
         - path: /
